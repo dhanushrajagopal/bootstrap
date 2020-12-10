@@ -1,0 +1,140 @@
+body{
+    font-family: 'Montserrat', sans-serif ;
+}
+#title{
+    background-color: #ff4c68;
+   
+}
+h1{
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.container-fluid{
+    padding:3% 15% 7%;
+    
+}
+.image{
+   
+    transform: rotate(25deg);
+    width: 60%;
+    right:30%;
+    position: absolute;
+}
+.navbar{
+    padding: 0 0  4.5rem;
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.5rem;
+}
+.nav-items{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    
+}
+.dowbt{
+    margin:5% 3% 5% 0;
+
+}
+.feature{
+    
+        padding:7% 15%;
+        text-align: center;
+        padding:5%;
+        
+}
+#features{
+    background-color: snow;
+    position: relative;
+    
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+p{
+    color:silver;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 1.5rem;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+#testimonials{
+    
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+
+}
+h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height:1.5 ;
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+    
+}
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}
+.press-lgo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.price-col{
+    padding:3% 2%;
+}
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .image{
+        position: static;
+        transform: rotate(0);
+       
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: snow;
+    font-family: 'Montserrat';
+   padding:7% 15%;
+    font-size: 3.5rem;
+    line-height:1.5 ;
+}
+#footer{
+    text-align: center;
+    text-decoration: none;
+    padding-top:40px;
+    padding-bottom: 20px;
+}
+#footer>a{
+    color:black;
+    font-size: 20px;
+    padding:0 1%;
+}
+#footer>a:hover{
+    color: orangered;
+}
